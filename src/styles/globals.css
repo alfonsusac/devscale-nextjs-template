@@ -4,6 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-slate-100 tracking-tight
+    @apply max-w-screen-sm mx-auto
+  }
+  input, textarea, button {
+    @apply block
   }
 }
